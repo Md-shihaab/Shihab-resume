@@ -1,0 +1,70 @@
+.container {
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    background-color: #f4f4f4;
+  }
+  .header a {
+    color: #333;
+    text-decoration: underline;
+  }
+  #idLinkedInIcon{background-color:rgb(0, 102, 170);border-radius:6px;color:white;cursor:pointer;display:inline-block;font:bold 25px Arial, Helvetica, sans-serif;height:30px;margin-top:1px;text-align:center;width:30px;}
+#idLinkedInIcon:hover{background-color:#06d;}
+  .header a:hover {
+    color: #007bff;
+  }
+  
+  .header {
+    padding: 40px;
+    text-align: center;
+    background-color: #ccc;
+  }
+  
+  .header h1 {
+    margin-top: 0;
+  }
+  
+  .header a {
+    color: #333;
+  }
+  
+  .content {
+    padding: 40px;
+  }
+  
+  .internship h3,
+  .projects h3,
+  .education h3,
+  .skills {
+    margin-top: 0;
+  }
+  .internship ul,
+.projects p {
+  margin-bottom:0px;
+}
+  .internship ul,
+  .projects ul {
+    margin-bottom: 0px;
+  }
+  .internship ul,
+.internship p {
+  margin-bottom:0px;
+}
+
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+  }
+  
+  .skills span {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
